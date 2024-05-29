@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Fira Code", monospace;
+}
+body{
+    background-color: rgba(102, 102, 156, 0.223);
+}
+header{
+position: sticky;
+    width: 100%;
+    background-color: rgba(22, 22, 73, 0.304);
+    position: fixed;
+}
+h1{
+    font-family: "M PLUS Code Latin", monospace;
+}
+nav{
+    display: flex;
+    justify-content: space-between
+}
+nav img{
+    width: 80px;
+}
+ul{
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+}
+ul li{
+    margin: 10px;
+    list-style: none;
+}
+a{
+
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-shadow: 3px 4px 5px;
+}
+video{
+    width: 100%;
+}
+i{
+    color: white;
+}
+#welcome h2{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+#about{
+    padding: 20px;
+}
+#about h2{
+    text-align: center;
+}
+.aboutme h3{
+    font-size: 28px;
+}
+.aboutme img{
+    width:400px ;
+}
+.brijosh p{
+    text-align: justify;
+    margin: 30px;
+    width: 800px;
+}
+.c{
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+}
+#row{
+    display: flex;
+    justify-content: center;
+}
+.c:hover{
+    height: 240px;
+    width: 340px;
+}
+.srow{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+    padding: 10px;
+}
+.cs{
+    width: 350px;
+    height: 440px;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+.cs p{
+    text-align: justify;
+    margin: 20px;
+}

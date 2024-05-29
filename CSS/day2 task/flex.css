@@ -1,0 +1,19 @@
+.row{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    background-color: aquamarine;
+    width: 200px;
+    height: 400px;
+}
+.c1{
+    background-color: brown;
+}
+.c3{
+    background-color:brown ;
+}

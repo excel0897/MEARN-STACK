@@ -1,0 +1,62 @@
+body{
+    background-image: url('https://wallpapers.com/images/featured/coffee-bean-wmhqt5jyr77cxa4v.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+header{
+    position: sticky;
+    width: 100%;
+    position: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav img{
+    width: 80px;
+    border-radius: 18px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li{
+    margin: 10px;
+    list-style: none;
+}
+a{
+
+    color: rgb(241, 236, 236);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(247, 161, 3);
+    text-shadow: 3px 4px 5px;
+}
+.main{
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+    height: 700px;
+    justify-content: left;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size:50px ;
+    padding: 2px;
+    margin: 80px;
+    text-align: left;
+}
+p{
+    margin: 90px;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}

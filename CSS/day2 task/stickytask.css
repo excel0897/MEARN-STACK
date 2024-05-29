@@ -1,0 +1,15 @@
+.t1{
+    background-color: black;
+    color: antiquewhite;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+}
+#petti{
+    width: 50%;
+    text-align: left;
+}
+.d1{
+padding-left:30px;
+margin-left: 10px ;
+}

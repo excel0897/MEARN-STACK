@@ -1,0 +1,36 @@
+/* universal selector */
+*{
+    text-align: center;
+}
+/* tag selector */
+h1{
+    color: brown;
+}
+/* id selector */
+#h1{
+    color: black;
+}
+/* class selector */
+.h2{
+    text-align: center;
+    color: blue;
+}
+.p1{
+    color: blue;
+}
+button{
+    background-color: black;
+    color: antiquewhite;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+p::first-letter{
+    color: chocolate;
+}
+p::first-line{
+    color: blueviolet;
+    font-style: italic;
+    font-size: large;
+}
